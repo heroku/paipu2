@@ -1,0 +1,13 @@
+{
+  "name": "paipu",
+  "scripts": {
+  },
+  "env": {
+    "BOGO": {
+      "required": true
+    }
+  },
+  "addons": [
+
+  ]
+}
