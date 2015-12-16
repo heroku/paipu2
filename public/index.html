@@ -7,7 +7,7 @@
 <body>
 	<div class="container">
 		<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2" style="text-align:center">
-			<h2>Bouncing balls in a rectangle</h2>
+			<h2>Some bouncing balls in a rectangle</h2>
 			<p>(see below)</p>
 		</div>
 	</div>
@@ -31,12 +31,12 @@ function Ball(){
  
     //random colour, r, g or b
     var rcol = Math.floor(Math.random()*3);
-    this.col = rcol==0 ? "red" :
+    this.col = rcol==0 ? "yellow" :
                rcol==1 ? "#6567a5" : "green";
 }
  
 // create an array of balls
-numBalls = 10;
+numBalls = 20;
 var balls = new Array(numBalls);
 for(i= 0 ; i < numBalls ; i++){
    balls[i] = new Ball();
