@@ -19,7 +19,7 @@ var height = 600;
  
 function Ball(){
     // random radius
-    this.radius = Math.floor(Math.random()*(10-5+1))+5;
+    this.radius = Math.floor(Math.random()*(10-5+1))+10;
  
     // random x and y
     this.x = Math.floor(Math.random()*(width-this.radius+1))+this.radius;
@@ -32,7 +32,7 @@ function Ball(){
     //random colour, r, g or b
     var rcol = Math.floor(Math.random()*3);
     this.col = rcol==0 ? "red" :
-               rcol==1 ? "blue" : "green";
+               rcol==1 ? "#6567a5" : "green";
 }
  
 // create an array of balls
