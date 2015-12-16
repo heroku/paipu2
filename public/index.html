@@ -14,8 +14,8 @@
 	
 		
 <script type="text/javascript">
-var width = 200;
-var height = 200;
+var width = 400;
+var height = 400;
  
 function Ball(){
     // random radius
@@ -94,7 +94,9 @@ function bounce(){
     setInterval(draw, 10);
 }
 </script>
-<canvas id="myCanvas" width="80%" height="600" style="border-style:solid;border-width:1px" onclick="bounce()">
+<div style="margin-left: 100px;">
+<canvas id="myCanvas" width="80%" height="600" style="border-style:solid;border-width:1px; border-color:#444444" onload="bounce()">
 Canvas not supported.</canvas>
+</div>
 </body>
 </html>
