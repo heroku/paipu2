@@ -10,6 +10,10 @@ app.get('/', function(request, response) {
   response.render('index.html');
 });
 
+app.get('/hammertime', function(request, response) {
+  response.send('can\'t touch this');
+})
+
 app.listen(app.get('port'), function() {
   console.log("Node app is running at localhost, not all that exciting:" + app.get('port'));
 });
